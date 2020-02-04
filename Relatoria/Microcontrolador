@@ -1,0 +1,3 @@
+Para la elección de esta sección del proyecto se eligió trabajar con una tarjeta de desarrollo de arduino debido a su facilidad de
+programación sobre el microcontrolador del STM32 de la FPGA, con esta tarjeta se realiza todo el trabajo de la comunicación con la
+raspberry mediante la comunicación WiFi mediante un modulo ESP32.
