@@ -1,0 +1,19 @@
+Desde el principio del proyecto se puso en duda si en realmente se iba o no a monitorear estas dos variables, 
+ya que, según los conocimientos en dicho momento, no serían de fácil obtención y manejo, especialmente la saturación 
+de oxígeno, sin embargo, se decidió medirlas ya que después de hecha una corta investigación se comprobó que estábamos 
+en lo incorrecto, dichas variables podrían medirse de forma ‘sencilla’ y lo más importante, de forma práctica y no tan 
+costosa. Sumado a esto, uno de los integrantes del equipo comento que tendría disponible una pinza de pulsioximetría 
+20SE01029, el cual básicamente es un sensor de oximetría genérico reutilizable tipo pinza de la marca LifeMed con 
+conector DB-9 para equipos médicos de monitoreo constante, luego se investigó un DataSheet 
+(https://www.nxp.com/docs/en/application-note/AN4327.pdf) del cual se tomó un circuito que adecuaba la 
+señal obtenida por dicho sensor y el cual contenía una serie de filtros, etapas de amplificación y conversiones 
+con el fin de tener una señal utilizable. Se intentó implementar dicho circuito, sin embargo, no se tuvo ningún 
+resultado a la hora de probarlo. Es así como se toma la decisión de probar la pinza con los monitores de la 
+facultad de enfermería de la UNAL, dando como resultado que dicha pinza no se encontraba en buen estado, por lo cual
+no podría ser usada para el proyecto. Al ver los elevados costos y dificultad existente para conseguir otro sensor 
+de este tipo, se resuelve no usar pinza y no mostrar estos dos signos vitales. 
+
+No obstante, se evalúa la posibilidad de realizar un monitoreo de la actividad eléctrica del corazón usando la 
+técnica de electrocardiograma (ECG), esto usando tres electrodos (https://www.sigmaelectronica.net/producto/sen-12969/)
+que se espera vayan conectados al pecho del infante y de las cuales se obtienen señales que serán tratadas mediante 
+un circuito de instrumentación biomédica para finalmente obtener una señal ECG.
