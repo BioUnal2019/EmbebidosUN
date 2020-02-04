@@ -11,7 +11,7 @@ This app was supported by ionic framework in Windows, these were  the steps that
 - We created buttons and improved the style according to: 
   - https://www.youtube.com/watch?v=hnoBhpZebT4
   - https://www.youtube.com/watch?v=w_0zHzgCb8w
-- We connected the app with the data base with the HttpClient according with: 
+- We connected the app with the data base with the HttpClient according to: 
   - https://www.youtube.com/watch?v=i_CIyBUFzHE
 - We created the project for android studio with:
   - ionic cordova build android
