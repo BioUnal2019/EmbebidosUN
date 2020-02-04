@@ -1,0 +1,19 @@
+La Raspberry Pi 4 (4 GB de RAM) utilizada en este proyecto incluye el procesador de nuestro sistema. Su función principal es almacenar y administar la base de datos del sistema además de coordinar y administrar las conexiones entre la base de datos y los demás dispositivos. Otro rol importante de la Raspberry es la generación de una red Wi-Fi como punto de acceso a internet.
+
+Vale la pena mencionar algunas de las especificaciones más relevantes a la Raspberry 4:
+	
+	- CPU – Broadcom BCM2711, Cortex-A72 de 4 núcleos (ARM v8) 64-bit SoC @ 1.5GHz
+	- RAM - 4 GB LPDDR4
+	- WiFi - 2.4 y 5.0 GHz
+	- Ethernet - Gigabit
+	- Almacenamiento - Micro-SD
+
+
+El sistema operativo cargado en la Raspberry Pi fue Debian Buster Lite, una distribución de Linux para la Raspberry caracterizado or ser liviano y rápido. La Raspberry se configuró por medio del protocolo UART y posteriormente por SSH. Mediante la correcta instalación y configuración del Dnsmasq y HostAPD se logró la generación de un punto de acceso. Para darle acceso a internet a la red generada por la Raspberry fue necesario configurar la redirección de puertos y administración de máscaras de red, de esta manera ella recibe internet por el puerto ethernet y lo comparte por la red WiFi.
+
+La base de datos escogida para almacenar la información recopilada por los sensores fue InfluxDB, una base de datos optimizada para un manejo rápido de variables especialmente en el campo de IoT. Esta trabajada de la mano de Grafana, un visualizador datos métricos de una manera muy eficiente y personalizable. Esta se comunica con la base de datos la cual a su vez recibe los datos desde la tarjeta ESP32. Mediante un plugin llamado Telegraf, que utiliza el protocolo de comunicación MQTT, la base de datos se encarga de recibir los datos y guardarlos de manera organizada. Para su correcto funcionamiento es necesario la instalación y configuración de InfluxDB, Grafana, Telegraf y MQTT.
+
+Por último se instaló Node-Red el cual es un software de programación visual enfocada en la conexión de dispositivos de hardware. Este se utilizó para conectar la base de datos con el app (mediante el protocolo http) y como respaldo para administrar la comunicación mediante MQTT.
+
+
+
