@@ -1,0 +1,26 @@
+SENSOR DE TEMPERATURA
+ 
+Para la selección del modulo de temperatura a emplear para la medición de la T° corporal de la persona, se tuvieron inicialmente 
+en cuenta cuatro opciones: 
+
+    • Termistor NTC102
+    • Integrado LM35
+    • Integrado LM355
+    • TMP102
+
+Para elegir la mejor opción se tuvo en cuenta que la temperatura corporal varia entre rangos muy pequeños en comparación con los 
+que ofrecen los sensores en si, por lo que la precisión y la sensibilidad de las mediciones deben ser lo mejor posibles para 
+obtener un valor confiable:
+
+    • Termistor NTC102 = 3°C
+    • Integrado LM35 = 0,5°C
+    • Integrado LM355 = 2°C
+    • TMP102 = 0,0625°C
+
+De esta manera se escogió el sensor aun así fuera de un costo mayor, pues adicional el TMP es un sensor integrado que funciona con 
+protocolo I2C, diferente de los demás los cuales miden la temperatura por una diferencia de tensión en sus terminales pues esto 
+esta sujeto a muchas interferencias.
+
+Una vez escogido el sensor se procedió a su calibración utilizando como punto de referencia una termocupla tipo K y un termómetro 
+digital, luego se implemento su funcionamiento en un microprocesador donde se tiene control de la temperatura del individuo entre 
+ciertos rangos considerados como normales y saludables, lanzando una alarma si el valor se sale de estos rangos.
