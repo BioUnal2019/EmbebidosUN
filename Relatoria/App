@@ -1,0 +1,18 @@
+This app was supported by ionic framework in Windows, these were  the steps that were followed: 
+- Install nodejs, cordova and ionic. This was carried out according to: 
+  - https://www.youtube.com/watch?v=duekybtjLck
+- Install android studio, according to:  
+  - https://www.xatakandroid.com/tutoriales/como-instalar-android-studio-tu-pc-cinco-sencillos-pasos
+- We used the template with tabs for the ionic app:
+  - ionic start MMU4 tabs
+- After that we created two pages more, the login page en the register page: 
+  - ionic generate page doc-log
+  - ionic generate page doc-reg
+- We created buttons and improved the style according to: 
+  - https://www.youtube.com/watch?v=hnoBhpZebT4
+  - https://www.youtube.com/watch?v=w_0zHzgCb8w
+- We connected the app with the data base with the HttpClient according to: 
+  - https://www.youtube.com/watch?v=i_CIyBUFzHE
+- We created the project for android studio with:
+  - ionic cordova build android
+- We ran android studuio and opened the android file within the MMU4 file, and then build the apk for install in our smartphone
