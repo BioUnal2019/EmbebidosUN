@@ -16,3 +16,4 @@ This app was supported by ionic framework in Windows, these were  the steps that
 - We created the project for android studio with:
   - ionic cordova build android
 - We ran android studuio and opened the android file within the MMU4 file, and then build the apk for install in our smartphone
+.
