@@ -1,0 +1,5 @@
+The ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
+This makes it perfect for sending the data of this project, this module is capable of running a micropython distribution which
+facilitates the programming and use of it; In addition, the bitbucket repository containing the MPExplorer was used
+ which allows the programming of the ESP32 using pre-programmed blocks, the code that was written for this project causes
+ the ESP32 to connect to a specific network to send the data you receive through uart to an MQTT server hosted on a Raspberry pi 4
