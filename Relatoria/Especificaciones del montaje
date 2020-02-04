@@ -1,0 +1,17 @@
+Para realizar el montaje se tiene en cuenta tres aspectos:  una PCB, un estuche y una serie de parches.
+
+La primera, la PCB, se planeó diseñar para albergar el circuito responsable de realizar el electrocardiograma,
+el módulo WiFi y los conectores para el sensor de temperatura, entre sus especificaciones se tiene una baquela
+de 10 cm de ancho por 10 cm de largo, la cual se diseña en KiCaD, un software de fácil uso para el diseño de PCB.
+
+Para el estuche se tiene en cuenta los dos dispositivos que llevará en su interior, la PCB y la tarjeta BlackIce,
+por lo cual se diseña en inspiración a una cajonera de noche de dos pisos sin tapas frontales, donde el primer piso
+albergará a la PCB, por lo cual se necesita que sea de 10 cm de ancho por 10 cm de largo, y teniendo en cuenta la 
+altura del componente más alto dentro del circuito (un condensador) se deja de 2 cm de alto. En el nivel superior se
+situará la tarjeta BlackIce, para lo cual se midió y se creo su espacio con 7 cm de ancho por 6 cm de largo y 1.8 cm
+de alto. Ambos pisos están unidos por un solo cimiento que se espera sea de 0.5 cm de ancho. Los dos pisos se encuentran
+alineados al frente, donde tendrán una abertura completa para poder realizar las conexiones pertinentes. El piso superior
+esta a la mitad del ancho del piso inferior, por lo cual esta centrado si se determina en una vista frontal.
+
+Finalmente, para los parches, se tiene en cuenta que son en total cuatro:  tres para el electrocardiograma y uno para el
+sensor de temperatura.
