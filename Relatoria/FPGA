@@ -1,0 +1,15 @@
+FPGA
+
+Para la elección de la FPGA se decidió utilizar la tarjeta de desarrollo BlackIce-MX debido a su facilidad al ser programada 
+gráficamente con el software IceStudio y a su tamaño reducido comparado con otras FPGA’S como las tarjetas Nexys o Nucleo, una 
+ventaja a comparación de estas es que tiene integrado también un microcontrolador STM32, para el funcionamiento de esta FPGA se 
+realizo el siguiente procedimiento:
+
+    1. Se realiza la instalación de los programas IceStorm, Arachne-pnr y Yosys.
+    2. Se descargo e instalo el programa APIO de los repositorios de github.
+    3. De la pagina Icestudio.io se descargo la ultima versión del programa (Nightly 0.5.1) y se clono el repositorio de la 
+       versión de trabajo de los creadores en github, donde primero se corrió la imagen de la versión Nightly para poder instalar
+       la tool-chain y los drivers de esta versión, posteriormente se instalo la otra versión con npm y se realizo el mismo
+       procedimiento de tool-chain y drivers verificando que en esta versión si se encontrara la tarjeta BlackIce-MX.
+    4. Se verifico el adecuado funcionamiento de verificación, compilación y carga del programa en la FPGA.
+    5. Se corrigieron errores en el PCF y PINOUT.
