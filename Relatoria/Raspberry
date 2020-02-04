@@ -1,4 +1,4 @@
-La Raspberry Pi 4 (4 GB de RAM) utilizada en este proyecto incluye el procesador de nuestro sistema. Su función principal es almacenar y administar la base de datos del sistema además de coordinar y administrar las conexiones entre la base de datos y los demás dispositivos. Otro rol importante de la Raspberry es la generación de una red Wi-Fi como punto de acceso a internet.
+La Raspberry Pi 4 (4 GB de RAM) utilizada en este proyecto incluye el microprocesador de nuestro sistema. Su función principal es almacenar y administar la base de datos del sistema además de coordinar y administrar las conexiones entre la base de datos y los demás dispositivos. Otro rol importante de la Raspberry es la generación de una red Wi-Fi como punto de acceso a internet.
 
 Vale la pena mencionar algunas de las especificaciones más relevantes a la Raspberry 4:
 	
